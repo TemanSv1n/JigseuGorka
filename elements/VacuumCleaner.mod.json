@@ -1,0 +1,43 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "beaver_coal",
+    "customModelName": "vacuumcleaner:default",
+    "name": "Vacuum Cleaner",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:DrillFuel"
+    },
+    "shootConstantly": false,
+    "usageCount": 1488,
+    "actionSound": {
+      "value": "entity.cow.milk"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "VacuumCleanerRangedItemUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:DrillFuel"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletFlyingTick": {
+      "name": "VacuumCleanerWhileProjectileFlyingTick"
+    }
+  }
+}

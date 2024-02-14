@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jigseu_gorka:blocks/red_upper_set",
+    "up": "jigseu_gorka:blocks/red_upper_set",
+    "north": "jigseu_gorka:blocks/red_upper_set",
+    "east": "jigseu_gorka:blocks/red_upper_set",
+    "south": "jigseu_gorka:blocks/red_upper_set",
+    "west": "jigseu_gorka:blocks/red_upper_set",
+    "particle": "jigseu_gorka:blocks/red_upper_set"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jigseu_gorka:blocks/red_spot",
+    "up": "jigseu_gorka:blocks/red_spot",
+    "north": "jigseu_gorka:blocks/red_spot",
+    "east": "jigseu_gorka:blocks/red_spot",
+    "south": "jigseu_gorka:blocks/red_spot",
+    "west": "jigseu_gorka:blocks/red_spot",
+    "particle": "jigseu_gorka:blocks/red_spot"
+  }
+}

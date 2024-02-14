@@ -1,0 +1,324 @@
+{
+  "mod_elements": [
+    {
+      "name": "SpotBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spot_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jigseu_gorka/models/block/spot_block.json",
+          "src/main/resources/assets/jigseu_gorka/models/item/spot_block.json",
+          "src/main/java/net/svisvi/jigseugorka/block/SpotBlockBlock.java",
+          "src/main/resources/assets/jigseu_gorka/blockstates/spot_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SpotBlockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spot_block_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/jigseugorka/procedures/SpotBlockEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SledgeHammerMultiTool",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sledge_hammer_multi_tool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jigseu_gorka/models/item/sledge_hammer_multi_tool.json",
+          "src/main/java/net/svisvi/jigseugorka/item/SledgeHammerMultiToolItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TeapotDrill",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teapot_drill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/jigseugorka/item/TeapotDrillItem.java",
+          "src/main/resources/assets/jigseu_gorka/models/item/teapot_drill.json"
+        ]
+      }
+    },
+    {
+      "name": "DrillFuel",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_fuel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/jigseugorka/item/DrillFuelItem.java",
+          "src/main/resources/assets/jigseu_gorka/models/item/drill_fuel.json"
+        ]
+      }
+    },
+    {
+      "name": "TeapotDrillBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teapot_drill_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/jigseugorka/procedures/TeapotDrillBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TeapotDrillToolInHandTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teapot_drill_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/jigseugorka/procedures/TeapotDrillToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LadleSpoon",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ladle_spoon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/jigseugorka/item/LadleSpoonItem.java",
+          "src/main/resources/assets/jigseu_gorka/models/item/ladle_spoon.json"
+        ]
+      }
+    },
+    {
+      "name": "LadleSpoonEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ladle_spoon_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/jigseugorka/procedures/LadleSpoonEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VacuumCleaner",
+      "type": "rangeditem",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vacuum_cleaner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/jigseugorka/item/VacuumCleanerItem.java",
+          "src/main/resources/assets/jigseu_gorka/models/item/vacuum_cleaner.json",
+          "src/main/java/net/svisvi/jigseugorka/entity/VacuumCleanerEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "VacuumCleanerRangedItemUsed",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vacuum_cleaner_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/jigseugorka/procedures/VacuumCleanerRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VacuumCleanerWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vacuum_cleaner_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/svisvi/jigseugorka/procedures/VacuumCleanerWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Spot_1",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Spot_2",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Spot_3",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Spot_4",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Spot_5",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Scores",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.jigseu_gorka.ladle_spoon": "Ladle Spoon",
+      "block.jigseu_gorka.spot_block": "Spot Block",
+      "item.jigseu_gorka.vacuum_cleaner": "Vacuum Cleaner",
+      "item.jigseu_gorka.teapot_drill": "Teapot Drill",
+      "item.jigseu_gorka.sledge_hammer_multi_tool": "Sledge Hammer Multi Tool",
+      "item.jigseu_gorka.drill_fuel": "Drill Fuel"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "jigseu_gorka",
+    "modName": "Jigseu Gorka",
+    "version": "1.0.0",
+    "author": "Admin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.svisvi.jigseugorka",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300217118
+}

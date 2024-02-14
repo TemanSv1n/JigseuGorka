@@ -1,0 +1,8 @@
+{
+  "parent": "jigseu_gorka:custom/ladle",
+  "textures": {
+    "0": "jigseu_gorka:blocks/povar",
+    "1": "jigseu_gorka:blocks/barrel_side",
+    "particle": "jigseu_gorka:items/povar"
+  }
+}

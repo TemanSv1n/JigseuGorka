@@ -1,0 +1,10 @@
+{
+  "parent": "jigseu_gorka:custom/vacuumcleaner",
+  "textures": {
+    "4": "jigseu_gorka:blocks/texture_nasral",
+    "6": "jigseu_gorka:blocks/barrel_top",
+    "7": "jigseu_gorka:blocks/barrel_side",
+    "8": "jigseu_gorka:blocks/barrel_bottom",
+    "particle": "jigseu_gorka:items/beaver_coal"
+  }
+}

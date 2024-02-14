@@ -1,0 +1,14 @@
+
+{
+  "variants": {
+    "level=0": {
+      "model": "jigseu_gorka:block/spot_block"
+    },
+    "level=1": {
+      "model": "jigseu_gorka:block/spot_block_red"
+    },
+    "level=2": {
+      "model": "jigseu_gorka:block/spot_block_blue"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "sledgehammer",
+    "customModelName": "sledgehammer:default",
+    "name": "Sledge Hammer Multi Tool",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 4,
+    "efficiency": 8.0,
+    "attackSpeed": 1.6,
+    "enchantability": 22,
+    "damageVsEntity": 4.0,
+    "usageCount": 1488,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

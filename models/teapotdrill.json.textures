@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "kettle",
+        "missing": "kettle"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "jigseu_gorka:custom/sledgehammer",
+  "textures": {
+    "0": "jigseu_gorka:blocks/sledgehammer",
+    "particle": "jigseu_gorka:items/sledgehammer"
+  }
+}

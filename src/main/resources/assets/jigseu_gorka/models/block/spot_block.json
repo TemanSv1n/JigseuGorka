@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jigseu_gorka:blocks/green_spot",
+    "up": "jigseu_gorka:blocks/green_spot",
+    "north": "jigseu_gorka:blocks/green_spot",
+    "east": "jigseu_gorka:blocks/green_spot",
+    "south": "jigseu_gorka:blocks/green_spot",
+    "west": "jigseu_gorka:blocks/green_spot",
+    "particle": "jigseu_gorka:blocks/green_spot"
+  }
+}

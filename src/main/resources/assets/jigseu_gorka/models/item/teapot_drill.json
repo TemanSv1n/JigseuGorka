@@ -1,0 +1,8 @@
+{
+  "parent": "jigseu_gorka:custom/teapotdrill",
+  "textures": {
+    "2": "jigseu_gorka:blocks/kettle",
+    "missing": "jigseu_gorka:blocks/kettle",
+    "particle": "jigseu_gorka:items/kettle"
+  }
+}
