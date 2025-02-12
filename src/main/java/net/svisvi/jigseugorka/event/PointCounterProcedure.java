@@ -51,7 +51,7 @@ public class PointCounterProcedure {
             color_code = "blue";
             val = val * -1;
         }
-        String cmd = String.format("title @p actionbar {\"text\":\"Общий счетчик : %.0f\",\"color\":\"%s\"}", val, color_code);
+        String cmd = String.format("title @a actionbar {\"text\":\"Общий счетчик : %.0f\",\"color\":\"%s\"}", val, color_code);
         if (world instanceof ServerLevel _level) {
             _level.getServer().getCommands().performCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(0, 0, 0), Vec2.ZERO, _level, 4, "", new TextComponent(""), _level.getServer(), null).withSuppressedOutput(),
                     cmd);
